@@ -93,11 +93,11 @@ export function Hero() {
   );
 
   return (
-    <Carousel setApi={setApi} className="grid grid-cols-2 gap-8 px-12">
+    <Carousel setApi={setApi} className="grid grid-cols-2 gap-8">
       <div className="col-span-2 md:col-span-1 flex items-center justify-center">
         <img src={illustration} className="object-contain" />
       </div>
-      <div className="col-span-2 md:col-span-1 flex flex-col justify-center px-6">
+      <div className="col-span-2 md:col-span-1 flex flex-col justify-center lg:px-6">
         <CarouselContent>
           <CarouselItem>
             <h3>Hello!</h3>

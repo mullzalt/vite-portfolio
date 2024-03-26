@@ -7,7 +7,7 @@ import { Tags } from "@/components/ui/tags";
 
 export function ProjectVim() {
   return (
-    <div className="px-8 flex flex-col container gap-8">
+    <div className="lg:px-8 flex flex-col gap-8">
       <div>
         <h2>Gamified Vim Learning Platform</h2>
         <h3 className="font-normal">Full-stack Development</h3>

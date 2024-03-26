@@ -3,10 +3,10 @@ import { Tags } from "@/components/ui/tags";
 
 export function Abouts() {
   return (
-    <div className="px-8">
+    <div>
       <h1 className="pb-2">About Me</h1>
 
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-2 gap-8 lg:px-8">
         <Stepper title="Experience" className="col-span-2 md:col-span-1">
           <StepperItem title="Bandung Design">
             <p className="text-muted-foreground">September 2022 - April 2023</p>

@@ -51,7 +51,7 @@ export function Contact() {
     }
   };
   return (
-    <div className="px-8 flex flex-col gap-8">
+    <div className="lg:px-8 flex flex-col gap-8">
       <h1 className="pb-2">Contact</h1>
       <div className="lg:px-8 grid lg:grid-cols-2 gap-8">
         <form

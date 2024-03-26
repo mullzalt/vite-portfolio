@@ -43,7 +43,7 @@ export function Layout({ isRoot = true }) {
               <img src={logo} className="w-[64px]" />
             </button>
           ) : (
-            <NavLink to="/" className="hidden sm:block">
+            <NavLink to="/">
               <img src={logo} className="w-[64px]" />
             </NavLink>
           )}
